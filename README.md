@@ -19,6 +19,7 @@
 MoodMatch is a smart Netflix show recommender system that detects user mood from movie descriptions and recommends content accordingly. This project demonstrates an end-to-end data pipeline using **Pandas**, **TextBlob**, and **Scikit-learn**, with real-world Netflix data.
 
 📖*Project Description*
+
 Have you ever opened Netflix and spent more time scrolling than actually watching something? You’re not alone — with so many shows available, it’s easy to get overwhelmed. Plus, our mood plays a big role in what we feel like watching. When we’re happy, we might want a light-hearted comedy, but on tougher days, we might prefer something more emotional or intense.
 
 That’s exactly why we created MoodMatch — a smart Netflix recommender system that suggests shows based on how you feel. Instead of searching endlessly, you just tell MoodMatch your mood, and it recommends a list of shows that match that emotional vibe.
@@ -39,6 +40,20 @@ It’s a fun and useful way to apply what we’ve learned in data science — fr
 
 MoodMatch isn’t just about code. It’s about making content feel more personal and helping people find something that truly fits their moment. This project could easily grow in the future — imagine voice-based mood input, chatbot integration, or even a web app where your face or words decide what you watch next.
 
+
+🛠 *Tech Stack*
+Python 3.x
+
+Google Colab
+
+Pandas
+
+scikit-learn (for preprocessing / modeling)
+
+TextBlob (for sentiment analysis)
+
+CSV file (Netflix dataset)
+
 ## 📌 Features
 
 - 📥 ETL Pipeline to clean and prepare data
@@ -49,9 +64,24 @@ MoodMatch isn’t just about code. It’s about making content feel more persona
 
 🧠 How Mood is Detected
 We use:
+
 TextBlob for initial sentiment tagging
+
 Scikit-learn (TF-IDF + Logistic Regression) to learn mood from descriptions
+
 The model is trained on labeled data generated via sentiment polarity
+
+## Project Workflow
+
+*Data Ingestion*: Load Netflix show dataset from CSV
+
+*Preprocessing*: Clean the data, remove duplicates/nulls, prepare mood tags
+
+*Sentiment Analysis*: Use TextBlob to detect user mood from text input
+
+*Model Logic*: Use keyword or mood mapping to find suitable shows
+
+*Recommendation Output*: Return Netflix shows matching the user’s emoti
 
 📊 Sample Output
 ![SAMPLE OUTPUT](https://github.com/user-attachments/assets/727d6197-0a62-48c3-b3b2-10567d243e9c)
