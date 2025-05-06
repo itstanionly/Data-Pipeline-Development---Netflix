@@ -18,7 +18,7 @@
 
 MoodMatch is a smart Netflix show recommender system that detects user mood from movie descriptions and recommends content accordingly. This project demonstrates an end-to-end data pipeline using **Pandas**, **TextBlob**, and **Scikit-learn**, with real-world Netflix data.
 
-📖*Project Description*
+## Project Description
 
 Have you ever opened Netflix and spent more time scrolling than actually watching something? You’re not alone — with so many shows available, it’s easy to get overwhelmed. Plus, our mood plays a big role in what we feel like watching. When we’re happy, we might want a light-hearted comedy, but on tougher days, we might prefer something more emotional or intense.
 
@@ -41,7 +41,7 @@ It’s a fun and useful way to apply what we’ve learned in data science — fr
 MoodMatch isn’t just about code. It’s about making content feel more personal and helping people find something that truly fits their moment. This project could easily grow in the future — imagine voice-based mood input, chatbot integration, or even a web app where your face or words decide what you watch next.
 
 
-🛠 *Tech Stack*
+## 🛠 Tech Stack
 Python 3.x
 
 Google Colab
@@ -62,8 +62,9 @@ CSV file (Netflix dataset)
 - 🧪 Built with Python, Pandas, TextBlob, and Scikit-learn
 - 💻 CLI-based user interface
 
-🧠 How Mood is Detected
-We use:
+## 🧠 How Mood is Detected
+
+*We use:*
 
 TextBlob for initial sentiment tagging
 
